@@ -1,6 +1,7 @@
 package codes.flappy.MessagePins;
 
 import codes.flappy.MessagePins.command.CommandListener;
+import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.entities.Guild;
@@ -50,10 +51,8 @@ public class BotLoader extends ListenerAdapter {
     public void onReady(@NotNull ReadyEvent e) {
         logger.info("Registering commands...");
 
-        // TODO: Change this to global commands
-        Guild g = e.getJDA().getGuildById(952834115533676545L);
-        assert g != null;
-        g.updateCommands().addCommands(
+        JDA jda = e.getJDA();
+        jda.updateCommands().addCommands(
                 Commands.slash("pin", "Pin a message to the bottom of a channel")
                         .addOption(OptionType.CHANNEL, "channel", "The channel to pin to", true)
                         .addOption(OptionType.STRING, "message" , "The message to pin", true),
