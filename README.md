@@ -1,6 +1,7 @@
 # Pin a Discord message to the bottom of a channel.
 [![CodeFactor](https://www.codefactor.io/repository/github/flappythebats/discordmessagealwaysatthebottom/badge)](https://www.codefactor.io/repository/github/flappythebats/discordmessagealwaysatthebottom)
 [![Releases](https://img.shields.io/github/v/release/FlappyTheBats/DiscordMessageAlwaysAtTheBottom?logo=github)](https://github.com/FlappyTheBats/DiscordMessageAlwaysAtTheBottom/releases)
+![Heroku](https://pyheroku-badge.herokuapp.com/?app=discord-message-pins&style=flat)
 
 [![](https://img.shields.io/badge/discord-add%20to%20server-blue?style=for-the-badge&logo=discord)](https://discord.com/api/oauth2/authorize?client_id=979827675361337384&permissions=216064&scope=bot%20applications.commands)
 
