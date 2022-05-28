@@ -39,7 +39,7 @@ public class BotLoader extends ListenerAdapter {
         try {
             builder.build();
         } catch(LoginException e) {
-            logger.severe("LoginException when building the bot: " + e.getCause());
+            logger.severe("LoginException thrown building the bot. MAKE SURE YOU HAVE THE RIGHT BOT_TOKEN!!\n\nLoginException when building the bot: " + e.getCause());
             e.printStackTrace();
             System.exit(1);
         }
