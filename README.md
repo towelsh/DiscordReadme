@@ -21,8 +21,8 @@ Pre-compiled Java archives are avalible on the [Releases](https://github.com/fla
 
 **If you'd rather compile it yourself:**
 
-Windows: `gradlew.bat jar`
+Windows: `gradlew.bat build`
 
-Mac / Linux: `./gradlew jar`
+Mac / Linux: `./gradlew build`
 
 Output file will be located in `build\libs`.
