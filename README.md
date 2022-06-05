@@ -25,4 +25,4 @@ Windows: `gradlew.bat build`
 
 Mac / Linux: `./gradlew build`
 
-Output file will be located in `build\libs`.
+Output file will be located in `build/libs`.
