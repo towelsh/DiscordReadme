@@ -17,7 +17,7 @@ To deploy, simple compile and run the bot with the `BOT_TOKEN` set.
 # Compilation
 **Requires Java 17**
 
-Pre-compiled Java archives are avalible on the (https://github.com/FlappyTheBats/DiscordMessageAlwaysAtTheBottom/releases)[Releases] tab.
+Pre-compiled Java archives are avalible on the [Releases](https://github.com/flappy-codes/DiscordMessageAlwaysAtTheBottom/releases) tab.
 
 **If you'd rather compile it yourself:**
 
